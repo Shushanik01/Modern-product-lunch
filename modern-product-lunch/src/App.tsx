@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import {NavBar} from '~/components/NavBar/NavBar.tsx'
+import {NavBar} from '~/components/NavBar/NavBar.tsx';
+import { Header } from './components/header/header';
 
 function App() {
  
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
     <NavBar/>
+    <Header/>
     </>
   )
 }

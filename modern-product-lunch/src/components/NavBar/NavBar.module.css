@@ -8,10 +8,13 @@
 .nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav_links{
     display: flex;
     flex-direction: row;
     cursor: pointer;
+    gap: 27px;
+    list-style: none;
 }

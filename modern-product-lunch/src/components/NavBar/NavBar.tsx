@@ -8,12 +8,12 @@ export function NavBar(){
             <a href="/" className={styles.navbar_logo}>Area</a>
             <ul className={`${styles.nav_links} text-link`}>
 
-                <ul>Benefits</ul>
-                <ul>Specifications</ul>
-                <ul>How-to</ul>
-                <ul>Contact Us</ul>
+                <li>Benefits</li>
+                <li>Specifications</li>
+                <li>How-to</li>
+                <li>Contact Us</li>
             </ul>
-            <button className='btn-secondary'>Learn More <img src={slack}/></button>
+            <button className='btn btn-secondary'>Learn More <img src={slack}/></button>
         </nav>
     )
 }

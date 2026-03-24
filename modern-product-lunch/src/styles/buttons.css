@@ -1,0 +1,53 @@
+/* src/styles/buttons.css */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 22px;
+  height: 48px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-dm-sans);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.025em;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* ====== Primary ====== */
+.btn-primary {
+  background-color: var(--color-green-light);
+  color: var(--color-black);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-green-mid);
+  color: var(--color-white);
+}
+
+/* ====== Secondary ====== */
+.btn-secondary {
+  background-color: var(--color-green-dark);
+  color: var(--color-white);
+  width: 127px;
+  height: 48px;
+  /* padding: 22px 14px 22px 14px; */
+  border-radius: 1000px;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-green-mid);
+  color: var(--color-white);
+}
+
+/* ====== Disabled ====== */
+.btn:disabled {
+  background-color: var(--color-green-mid);
+  color: var(--color-white);
+  opacity: 0.6;
+  cursor: not-allowed;
+}

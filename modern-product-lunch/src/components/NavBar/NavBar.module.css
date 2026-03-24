@@ -1,0 +1,17 @@
+.navbar_logo{
+    font-family: var( --font-dm-sans);
+    font-size: 30px;
+    color: var(--color-black);
+     text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_links{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}

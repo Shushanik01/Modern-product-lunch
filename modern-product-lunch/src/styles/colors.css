@@ -1,0 +1,14 @@
+/* src/styles/colors.css */
+
+:root {
+  /* Greens */
+  --color-green-dark:  #485C11;
+  --color-green-mid:   #8E9C78;
+  --color-green-light: #DFECC6;
+
+  /* Neutrals */
+  --color-black:       #000000;
+  --color-grey-dark:   #6F6F6F;
+  --color-grey-light:  #E9E9E9;
+  --color-white:       #FFFFFF;
+}

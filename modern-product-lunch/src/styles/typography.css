@@ -1,0 +1,88 @@
+/* src/styles/typography.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=DM+Sans:wght@400;700&family=Roboto+Mono:wght@400&display=swap');
+
+/* ====== Variables ====== */
+:root {
+  --font-crimson: 'Crimson Text', serif;
+  --font-dm-sans: 'DM Sans', sans-serif;
+  --font-roboto-mono: 'Roboto Mono', monospace;
+}
+
+/* ====== Display ====== */
+.text-display {
+  font-family: var(--font-crimson);
+  font-size: 160px;
+  font-weight: 400;
+  line-height: 90%;
+}
+
+/* ====== Display Statistics ====== */
+.text-display-stat {
+  font-family: var(--font-dm-sans);
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+/* ====== Heading 1 ====== */
+.text-h1 {
+  font-family: var(--font-crimson);
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 90%;
+  letter-spacing: -0.03em;
+}
+
+@media (max-width: 1279px) {
+  .text-h1 { font-size: 54px; }
+}
+
+@media (max-width: 799px) {
+  .text-h1 { font-size: 50px; line-height: 95%; }
+}
+
+/* ====== Heading 2 ====== */
+.text-h2 {
+  font-family: var(--font-crimson);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+}
+
+/* ====== Heading 3 ====== */
+.text-h3 {
+  font-family: var(--font-crimson);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+}
+
+/* ====== Paragraph ====== */
+.text-paragraph {
+  font-family: var(--font-dm-sans);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.005em;
+}
+
+/* ====== Link ====== */
+.text-link {
+  font-family: var(--font-dm-sans);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.025em;
+}
+
+/* ====== Captions ====== */
+.text-captions {
+  font-family: var(--font-roboto-mono);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.01em;
+}
